@@ -51,11 +51,11 @@ Each line in an individual fingerprint file is the list of attributes of the fin
 
 You can visualize properties of the fingerprints by using the following scripts. Script `04_lengths.py` plots the distribution of the length of the fingerprints (this is for 10.000 entries of the adult dataset):
 
-![alt text](https://raw.githubusercontent.com/gaborgulyas/constrainted_fingerprinting/master/images/individual_fingerprint_lengths.png "Individual fingerprint lengths visualized.")
+![alt text](https://raw.githubusercontent.com/gaborgulyas/constrainted_fingerprinting/master/images/individual_lengths.png "Individual fingerprint lengths visualized.")
 
 Next, you need to run `05_cache_anonsets.py`, which will calculate anonymity set sizes for each user, and will save  the result into a pickled file. This can be plotted with script `06_plot_anonsets.py`, which would give you something like this:
 
-![alt text](https://raw.githubusercontent.com/gaborgulyas/constrainted_fingerprinting/master/images/individual_fingerprints_anonsetsizes.png "Individual fingerprint anonymity set sizes visualized.")
+![alt text](https://raw.githubusercontent.com/gaborgulyas/constrainted_fingerprinting/master/images/individual_anonsetsizes.png "Individual fingerprint anonymity set sizes visualized.")
 
 For the latter visualization, you need to get two more scripts:
 
