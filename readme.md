@@ -37,7 +37,7 @@ The operation is based on configuration files stored in `./config/`. These `json
 
 * `type`: which individual fingerprinting algorithm shall be used. There are two algorithms that could be added here:
   * `paper`: the exact algorithm that you can find in the paper.
-  * `faster`: we provide another algorithm for fast experimentation. We observed that while this algorithm is a bit less precise than the other one, it is faster when the attribute space is large; plus, results are just a bit behind compard to the other one. **TBW**: differences.
+  * `faster`: we provide another algorithm for fast experimentation. We observed that while this algorithm is a bit less precise than the other one, it is faster when the attribute space is large; plus, results are just a bit behind compard to the other one.
 * `data_pref`: dataset postfix; e.g., `users_movies.csv`, from where `movies` should be added here.
 * `limit`: limit for attribute queryies. For example, in case of iOS 9 this is 50, and 10 for the Tor Browser.
 * `user_limit`: for faster experimentation it can be nice if only a part of the dataset is used. Use -1 if you need the whole dataset.
