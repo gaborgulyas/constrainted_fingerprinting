@@ -2,7 +2,7 @@ import matplotlib
 import matplotlib.pyplot as plt
 from common import *
 
-config, outpath = load_config("config_999.json")
+config, outpath = load_config("config.json")
 
 # Process data
 fplen = {x: 0 for x in range(100)}

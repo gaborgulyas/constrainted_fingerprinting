@@ -7,8 +7,8 @@ DEBUG = True
 def get_minmax_attrs(_uid, _mask):
 	global Attrs, Users
 
-	pos_mask = set([int(x) for x in _mask if x >= 0.0 and x != -0.0])
-	neg_mask = set([int(abs(x)) for x in _mask if x < 0.0 or x == -0.0])
+	pos_mask = set([int(x) for x in _mask if x >= 0.0])
+	neg_mask = set([int(abs(x)) for x in _mask if x < 0.0])
 	mask = (neg_mask | pos_mask)
 
 	users_tmp = {}
