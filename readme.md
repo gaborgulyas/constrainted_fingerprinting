@@ -8,7 +8,7 @@ This repository serves the codebase of a scientific conference paper in [1]. The
 
 As this method is still considered as a valid approach to protect user privacy, the paper shows that it is in fact a weak protection method and if possible, should be avoided.
 
-The paper is available here: [**TBA: arxiv link after acceptance**]
+The paper is available here: [**TBA: arxiv link coming soon**]
 
 ## How can I use this?
 
@@ -49,7 +49,7 @@ First you can run either the script file running algorithm `paper` (`02_individu
 
 Each line in an individual fingerprint file is the list of attributes of the fingerprint, negative values are attributes that should not be set to the given user. (_Note_: for "historical" reasons, attributes are indexed from zero, and to preserve the sign, the zero index is stored as a float value.)
 
-You can visualize properties of the fingerprints by using the following scripts. Script `04_lengths.py` plots the distribution of the length of the fingerprints (this is for 10.000 entries of the adult dataset):
+You can visualize properties of the fingerprints by using the following scripts. Script `04_lengths.py` plots the distribution of the length of the fingerprints (this is for the complete adult dataset):
 
 ![alt text](https://raw.githubusercontent.com/gaborgulyas/constrainted_fingerprinting/master/images/individual_lengths.png "Individual fingerprint lengths visualized.")
 
@@ -71,7 +71,7 @@ If you find this work useful, especially if you use it whole or in part, please 
 
 `[1] Gabor Gyorgy Gulyas, Gergely Acs, Claude Castelluccia: Near-Optimal Fingerprinting with Constraints. PET Symposium 2016. (conditionally accepted paper)`
 
-The paper is available here: [**TBA: arxiv link after acceptance**]
+The paper is available here: [**TBA: arxiv link coming soon**]
 
 Here is a short teaser:
 
