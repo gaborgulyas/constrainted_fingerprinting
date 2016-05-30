@@ -8,7 +8,7 @@ This repository serves the codebase of a scientific conference paper in [1]. The
 
 As this method is still considered as a valid approach to protect user privacy, the paper shows that it is in fact a weak protection method and if possible, should be avoided.
 
-The paper is available here: [**TBA: arxiv link coming soon**]
+The paper is available here: [Near-Optimal Fingerprinting with Constraints](https://arxiv.org/abs/1605.08664)
 
 ## How can I use this?
 
@@ -71,7 +71,7 @@ If you find this work useful, especially if you use it whole or in part, please 
 
 `[1] Gabor Gyorgy Gulyas, Gergely Acs, Claude Castelluccia: Near-Optimal Fingerprinting with Constraints. PET Symposium 2016. (conditionally accepted paper)`
 
-The paper is available here: [**TBA: arxiv link coming soon**]
+The paper is available here: [Near-Optimal Fingerprinting with Constraints](https://arxiv.org/abs/1605.08664)
 
 Here is a short teaser:
 
