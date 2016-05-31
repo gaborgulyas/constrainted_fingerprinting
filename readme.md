@@ -69,7 +69,7 @@ TBW.
 ## Reference/attribution
 If you find this work useful, especially if you use it whole or in part, please refer it to (similarly) as:
 
-`[1] Gabor Gyorgy Gulyas, Gergely Acs, Claude Castelluccia: Near-Optimal Fingerprinting with Constraints. PET Symposium 2016. (conditionally accepted paper)`
+`[1] Gabor Gyorgy Gulyas, Gergely Acs, Claude Castelluccia: Near-Optimal Fingerprinting with Constraints. PET Symposium 2016.`
 
 The paper is available here: [Near-Optimal Fingerprinting with Constraints](https://arxiv.org/abs/1605.08664)
 
