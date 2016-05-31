@@ -17,6 +17,9 @@ if __name__ == "__main__":
     K = config["max_sig_size"]
     OUTPUT_DATA_DIR = config["output_path"]
 
+    if not os.path.exists(OUTPUT_DATA_DIR):
+	    os.makedirs(OUTPUT_DATA_DIR)
+
     print "Max signature size:", K
 
     itemUser = load_attr_csv(config["user_limit"], first_col = config["first_col"], data_prefix = config["data_pref"])

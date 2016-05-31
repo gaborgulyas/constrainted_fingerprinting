@@ -3,6 +3,6 @@
 	"data_pref": "",
 	"user_limit": -1,
 	"first_col": 0,
-        "max_sig_size" : 100,
+        "max_sig_size" : 20,
         "output_path": "results/group_fingerprint/"
 }
