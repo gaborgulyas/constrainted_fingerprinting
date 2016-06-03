@@ -64,7 +64,7 @@ For the latter visualization, you need to get two more scripts:
 
 ### (3) Evaluation of general fingerprinting
 
-TBW.
+The evaluation of general fingerprinting can be done similarly as before. The fingerprint generation is done with `07_group_fingerprinting.py`, which has a config file called `config_group.json`, where the output path and maximum fingerprint size (`max_sig_size`) can be set beside the other parameters. As `max_sig_size` suggests, this script calculates the group fingerprint for all $2 \leq s \leq `max_sig_size`$, saves the general fingerprint and the resulting equivalence classes into zipped pickle files.
 
 ## Reference/attribution
 If you find this work useful, especially if you use it whole or in part, please refer it to (similarly) as:
