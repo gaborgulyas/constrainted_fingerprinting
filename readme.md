@@ -64,7 +64,14 @@ For the latter visualization, you need to get two more scripts:
 
 ### (3) Evaluation of general fingerprinting
 
-The evaluation of general fingerprinting can be done similarly as before. The fingerprint generation is done with `07_group_fingerprinting.py`, which has a config file called `config_group.json`, where the output path and maximum fingerprint size (`max_sig_size`) can be set beside the other parameters. As `max_sig_size` suggests, this script calculates the group fingerprint for all $2 \leq s \leq `max_sig_size`$, saves the general fingerprint and the resulting equivalence classes into zipped pickle files.
+The evaluation of general fingerprinting can be done similarly as before. The fingerprint generation is done with `07_group_fingerprinting.py`, which has a config file called `config_group.json`, where the output path and maximum fingerprint size (`max_sig_size`) can be set beside the other parameters. As `max_sig_size` suggests, this script calculates the group fingerprint for all `2 <= s <= max_sig_size`, saves the general fingerprint and the resulting equivalence classes into zipped pickle files.
+
+When having the general fingerprint files ready, we can plot out the anonymity sets with `08_plot_anonsets.py`. This will result images like this:
+
+![alt text](https://raw.githubusercontent.com/gaborgulyas/constrainted_fingerprinting/master/images/equivalence_classes_14.png "General fingerprint equvialence classes for `s=14` and only 1k users.")
+
+<center>**General fingerprint equvialence classes for `s=14` and only 1k users**</center>
+
 
 ## Reference/attribution
 If you find this work useful, especially if you use it whole or in part, please refer it to (similarly) as:
