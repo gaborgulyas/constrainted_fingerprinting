@@ -70,9 +70,6 @@ When having the general fingerprint files ready, we can plot out the anonymity s
 
 ![alt text](https://raw.githubusercontent.com/gaborgulyas/constrainted_fingerprinting/master/images/equivalence_classes_14.png "General fingerprint equvialence classes for `s=14` and only 1k users.")
 
-<center>**General fingerprint equvialence classes for `s=14` and only 1k users**</center>
-
-
 ## Reference/attribution
 If you find this work useful, especially if you use it whole or in part, please refer it to (similarly) as:
 
