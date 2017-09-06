@@ -1,5 +1,7 @@
 # Code repository for paper titled 'Near-Optimal Fingerprinting with Constraints'
 
+**NEW**: thanks to Pierre Laperdrix, the code is now also available for python 3. Just grab `python3-version.zip`.
+
 ## What is this for?
 This repository serves the codebase of a scientific conference paper in [1]. The paper shows that limiting the availability of user attributes is not enough for mainting user privacy. In fact, this is shown in two "hot" areas the paper:
 
